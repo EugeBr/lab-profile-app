@@ -14,16 +14,6 @@ router.put("/", async (req, res, next) => {
     }
 });
 
-router.post("/upload", isAuthenticated, async (req, res, next) => {
-    try {
-        const { image } = req.body
-        await User.create({ image })
-        return res.status(200).json(image)
-    } catch (error) {
-        next(error)
-    }
-})
-
 router.get("/", async (req, res, next) => {
     try {
         const id = req.session.currentUser._id;

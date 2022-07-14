@@ -25,7 +25,11 @@ router.post("/signup", async(req, res,next) => {
             campus,
             course
         })
-        return res.status(201).json({ message: "Signup successful" })
+        return res.status(201).json({ 
+            username,
+            password: hashedPass,
+            campus,
+            course })
     } catch (error) {
         next(error)
     }
