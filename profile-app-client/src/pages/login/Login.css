@@ -1,0 +1,29 @@
+.login {
+    background-image: url('/public/oval-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    text-align: left;
+    min-height: 100vh;
+}
+
+.left,
+.right {
+    width: 25%;
+    padding-top: 8%;
+}
+
+.left {
+    padding-left: 5%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 23rem;
+    width: 18%;
+    padding-right: 3%;
+}

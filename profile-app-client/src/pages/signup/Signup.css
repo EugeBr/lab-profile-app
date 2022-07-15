@@ -1,0 +1,55 @@
+.signup {
+    background-image: url('/public/oval-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    text-align: left;
+    min-height: 100vh;
+}
+
+.form,
+.create {
+    width: 25%;
+    padding-top: 8%;
+}
+
+.form {
+    padding-left: 5%;
+}
+
+.button-white {
+    background-color: #FFFFFF;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input {
+    border: 0ch;
+    background-color: #F6F6F6;
+    width: 80%;
+    height: 2rem;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+.create {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 23rem;
+    width: 18%;
+    padding-right: 2%;
+}
+
+h3 {
+    font-weight: 100;
+}
